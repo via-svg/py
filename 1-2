@@ -1,0 +1,16 @@
+str = input().split()
+count = 0
+for i in str:
+    if len(i) > count:
+        count = len(i)
+        max = i
+print(max)
+
+str = input().split(';')
+count = 0
+for i in str:
+    if len(i) > count:
+        count = len(i)
+        max = i
+print(max)
+
